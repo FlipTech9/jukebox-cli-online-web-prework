@@ -18,7 +18,10 @@ def help
     - exit : exits this program " 
 end 
 
-def play 
+def play (songs)
+  
+  #prompt user 
+  puts "Please enter a song name or number: "
   
 end 
 
