@@ -27,7 +27,7 @@ def play (songs)
   requested_song = gets.chomp 
   
   #check valid input 
-  
+  if (1..9).to_a.include?(requested_song.to_i)
 end 
 
 def list
