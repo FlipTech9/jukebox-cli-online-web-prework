@@ -31,6 +31,8 @@ def play (songs)
   if (1..9).to_a.include?(requested_song.to_i)
     #set index for correct dispaly 
     puts "Playing #{songs[requested_song.to_i - 1]}"
+    
+    
   end 
 end 
 
