@@ -32,7 +32,8 @@ def play (songs)
     #set index for correct dispaly 
     puts "Playing #{songs[requested_song.to_i - 1]}"
     
-    
+  else
+    puts "Invalid input, please try again"
   end 
 end 
 
