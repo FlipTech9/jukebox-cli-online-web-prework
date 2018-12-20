@@ -19,11 +19,15 @@ def help
 end 
 
 def play (songs)
-  user_input = 
+  
   #prompt user 
   puts "Please enter a song name or number: "
   
+  #get user input
+  requested_song = gets.chomp 
+  
   #check valid input 
+  
 end 
 
 def list
