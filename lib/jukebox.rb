@@ -27,11 +27,12 @@ def play (songs)
   #get user input
   requested_song = gets.chomp 
   
-  #check valid input 
+  #song by number  
   if (1..9).to_a.include?(requested_song.to_i)
     #set index for correct dispaly 
     puts "Playing #{songs[requested_song.to_i - 1]}"
-    
+  
+  #invalid input   
   else
     puts "Invalid input, please try again"
   end 
