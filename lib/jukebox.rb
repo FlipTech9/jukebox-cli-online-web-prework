@@ -23,6 +23,7 @@ def play (songs)
   #prompt user 
   puts "Please enter a song name or number: "
   
+  #check valid input 
 end 
 
 def list
