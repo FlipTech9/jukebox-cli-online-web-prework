@@ -17,3 +17,7 @@ def help
     - play : lets you chhoose a song to play
     - exit : exits this program " 
 end 
+
+def play 
+  
+end 
